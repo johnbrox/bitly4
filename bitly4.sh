@@ -8,12 +8,12 @@
 # pip install bitlyshortener
 # get auth_token from bit.ly and add this to bitly4.py
 
-export PATH=/home/johnb/miniconda3/bin:${PATH}
-. "/home/johnb/miniconda3/etc/profile.d/conda.sh"
+export PATH=${HOME}/miniconda3/bin:${PATH}
+. "${HOME}/miniconda3/etc/profile.d/conda.sh"
 
 conda activate bitly4
 # run py script and remove crap from output
-/home/johnb/bin/bitly4.py $@ | sed -e "s/^\[.//;s/.\]$//"
+${HOME}/bin/bitly4.py $@ | sed -e "s/^\[.//;s/.\]$//"
 
 
 
