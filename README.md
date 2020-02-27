@@ -4,6 +4,7 @@ The v3 API will cease to function from 1 Mar 2020 so we need to use v4.
 
 ## Requirements
 
+- A Linux computer (not a Raspberry Pi - installing Py3.7 was going to be too much effort)
 - A bit.ly account (get a free one from dev.bitly.com)
 - An access token from the above
 - Python 3.7 (I'm using a conda environment)
@@ -48,6 +49,12 @@ Add the bitly4.sh and (modified) bitly4.py scripts to ${HOME}/bin.  Add ${HOME}/
 
 ## Running the script
 
+```bash
 bitly4.sh LONG_URL
+```
 
+From the Pi:
 
+```bash
+ssh other_linux_host bin/bitly4.sh LONG_URL
+```
