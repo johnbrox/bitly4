@@ -1,15 +1,15 @@
-# Aim
+## Aim
 
 The v3 API will cease to function from 1 Mar 2020 so we need to use v4.
 
-# Requirements
+## Requirements
 
 - A bit.ly account (get a free one from dev.bitly.com)
 - An access token from the above
 - Python 3.7 (I'm using a conda environment)
 - bitlyshortener python module
 
-# Installation
+## Installation
 
 - Get Miniconda from https://docs.conda.io/en/latest/miniconda.html
 - Install miniconda3
@@ -44,7 +44,9 @@ pip install bitlyshortener
 
 Get auth_token from bit.ly and add this to bitly4.py
 
-# Running the script
+Add the bitly4.sh and (modified) bitly4.py scripts to ${HOME}/bin.  Add ${HOME}/bin to your $PATH} if you like.
+
+## Running the script
 
 bitly4.sh LONG_URL
 
