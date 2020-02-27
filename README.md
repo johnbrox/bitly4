@@ -1,6 +1,6 @@
 # Aim
 
-Simple script to shorten a long URL using bit.ly
+The v3 API will cease to function from 1 Mar 2020 so we need to use v4.
 
 # Requirements
 
@@ -11,8 +11,8 @@ Simple script to shorten a long URL using bit.ly
 
 # Installation
 
-Get Miniconda from https://docs.conda.io/en/latest/miniconda.html
-Install miniconda3
+- Get Miniconda from https://docs.conda.io/en/latest/miniconda.html
+- Install miniconda3
 
 ```bash
 bash Miniconda3-latest-Linux-x86_64.sh
