@@ -36,13 +36,13 @@ Activate it
 conda activate bitly4
 ```
 
-Install the bitlyshortener inthis environment
+Install the bitlyshortener in this environment
 
 ```bash
 pip install bitlyshortener
 ```
 
-Get auth_token from bit.ly and add this to bitly4.py
+Get auth_token from bit.ly and add this to bitly4.py to replace "authTokenFromBitLy"
 
 Add the bitly4.sh and (modified) bitly4.py scripts to ${HOME}/bin.  Add ${HOME}/bin to your $PATH} if you like.
 
