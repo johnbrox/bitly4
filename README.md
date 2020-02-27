@@ -57,4 +57,6 @@ From the Pi:
 
 ```bash
 ssh other_linux_host bin/bitly4.sh LONG_URL
+#eg
+RESPONSE=$(ssh zenbook bin/bitly4.sh \"${URL}\")
 ```
