@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import sys,getopt
+import sys
 try:
 	query = sys.argv[1]
 except:
