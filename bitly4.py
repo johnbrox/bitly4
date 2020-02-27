@@ -4,7 +4,7 @@ import sys
 try:
 	query = sys.argv[1]
 except:
-	print( "Empty query" )
+	print( "Empty query" , file=sys.stderr)
 	exit(1)
 
 from bitlyshortener import Shortener
